@@ -1,6 +1,6 @@
 addi $2,$0, 24          // # Dividend (Q) // main
 addi   $1,$0, 5         // # Divisor (M)
-addi   $4,$0, 5         // # Number of bits (n)
+addi   $4,$0, 32         // # Number of bits (n)
 addi $3, $0, 0          // # Initialize P (Partial Remainder) to 0
 slli  $3, $3, 1         // # Shift P left by 1 // loop
 slli  $2, $2, 1         // # Shift Q left by 1
