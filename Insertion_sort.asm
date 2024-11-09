@@ -15,4 +15,14 @@ st   $5, 4($4)              // # Insert current element #insert branch
 addi $3, $3, 4              // # Move to next element in the array
 subi  $2, $2, 1             // # Decrement counter
 bz $2, -14                  // # Repeat until all elements are sorted
+ld $1,0($0)
+ld $2,1($0)
+ld $3,2($0)
+ld $4,3($0)
+ld $5,4($0)
+ld $6,5($0)
+ld $7,6($0)
+ld $8,7($0)
+ld $9,8($0)
+ld $10,9($0)
 halt                        // # Infinite loop after sorting # end
