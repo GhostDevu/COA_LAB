@@ -1,19 +1,17 @@
-addi $2,$0, 24
-addi   $1,$0, 5
-addi   $4,$0, 32
-addi $3, $0, 0
-slli  $3, $3, 1
-slli  $2, $2, 1
-or   $3, $3, $2
-bmi $3, 3
-sub  $3, $3, $1
-addi $2, $2, 1
-br   1
-add  $3, $3, $1
-subi $4, $4, 1
-bz $4,1
-br -11
-bmi $3, 1
-br  1
-add  $3, $3, $1
-halt
+addi $1,$0,6
+addi $4,$0,25
+addi $5,$0,5
+slli $5,$5,6
+slli $4,$4,1
+bmi $4,2
+sub $4,$4,$5
+br 2
+add $4,$4,$5
+addi $4,$4,1
+subi $1,$1,1
+bz $1,1
+br -9
+bpl $4,1
+add $4,$4,$5
+andi $2,$4,63
+andi $3,$4,4032
