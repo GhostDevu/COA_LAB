@@ -1,5 +1,5 @@
 addi $1,$0,6
-addi $4,$0,25
+addi $4,$0,24
 addi $5,$0,5
 slli $5,$5,6
 slli $4,$4,1 //loop
