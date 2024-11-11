@@ -23,6 +23,6 @@ add $2,$2,$4
 subi $3,$3,1
 br -4
 ret $15 // skip_loop
-addi $1,$0,10 // main
+addi $1,$0,6 // main
 call 2
 halt
