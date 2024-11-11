@@ -1,10 +1,10 @@
 addi $14,$0,100 // initialize the stack // start
-br 20
+br 21
 subi $14,$14,2 // factorial
 st $15,0($14)
 st $1,1($14)
 subi $4,$1,1
-bz $4,2
+bz $4,3
 subi $1,$1,1
 call 2
 br 4
