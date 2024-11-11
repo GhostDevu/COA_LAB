@@ -1,7 +1,7 @@
-addi $1,$0,6
+addi $1,$0,15
 addi $4,$0,24
 addi $5,$0,5
-slli $5,$5,6
+slli $5,$5,15
 slli $4,$4,1 //loop
 bmi $4,2
 sub $4,$4,$5
@@ -16,5 +16,5 @@ bpl $4,1 // end_loop
 add $4,$4,$5
 andi $2,$4,63 // skip_correction
 andi $3,$4,4032
-slri $3,$3,6
+slri $3,$3,15
 halt

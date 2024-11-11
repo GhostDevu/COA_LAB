@@ -23,6 +23,6 @@ add $2,$2,$4
 subi $3,$3,1
 br -4
 ret $15
-addi $1,$0,6
+addi $1,$0,10
 call 2
 halt

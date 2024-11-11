@@ -1,5 +1,5 @@
-addi $1, $0, 4        // Multiplicand (A)
-addi $2, $0, 5        // Multiplier (y)
+addi $1, $0, 10        // Multiplicand (A)
+addi $2, $0, 20        // Multiplier (y)
 addi $3, $0, 32       // Bit width
 move $10, $3          // Counter for loop (no_of_bits)
 addi $11, $3, -1      // no_of_bits - 1 for shift
