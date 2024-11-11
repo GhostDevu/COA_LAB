@@ -16,8 +16,10 @@ ld $15,0($14) //skip_ret_here
 ld $1,1($14)
 addi $14,$14,2
 add $3,$0,$1
+add $4,$0,$2
+subi $3,$3,1
 bz $3,3 //loop
-add $2,$2,$2
+add $2,$2,$4
 subi $3,$3,1
 br -4
 ret $15 // skip_loop
