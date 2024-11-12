@@ -1,9 +1,7 @@
-### Non restoring division
+### cmov and hamm demo
 
-Valid for 15 bit numbers
-
-Quotient is stored in R2
-Remainder is stored in R3
-
-Multiplication of number at data Mem 0 and data mem 1
+R1 load data mem 0
+R2 load data mem 1
+R3 has CMOV of R1 and R2
+R4 has hamm value of R3
 
