@@ -1,6 +1,6 @@
 addi $14,$0,0
 ld $4,0($14)
-ld $5,0($14)
+ld $5,1($14)
 addi $3, $0, 32       // Bit width
 move $10, $3          // Counter for loop (no_of_bits)
 addi $11, $3, -1      // no_of_bits - 1 for shift
