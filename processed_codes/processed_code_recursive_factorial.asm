@@ -7,7 +7,7 @@ st $1,1($14)
 subi $4,$1,1
 bz $4,3
 subi $1,$1,1
-call 2
+call 3
 br 4
 ld $15,0($14)
 addi $14,$14,2
@@ -25,5 +25,5 @@ subi $3,$3,1
 br -4
 ret $15
 ld $1,0($13)
-call 2
+call 3
 halt
