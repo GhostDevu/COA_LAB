@@ -1,4 +1,5 @@
 addi $14,$0,100 // initialize the stack // start
+addi $13,$0,0
 br 23
 subi $14,$14,2 // factorial
 st $15,0($14)
@@ -23,6 +24,6 @@ add $2,$2,$4
 subi $3,$3,1
 br -4
 ret $15 // skip_loop
-addi $1,$0,6 // main
+ld $1,0($13) // main
 call 2
 halt
